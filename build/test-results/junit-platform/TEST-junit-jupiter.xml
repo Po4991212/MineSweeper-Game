@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="36" skipped="0" failures="0" errors="0" time="0.082" hostname="DESKTOP-3NJPEH4" timestamp="2017-11-16T16:33:04">
+<properties>
+<property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+<property name="file.encoding" value="windows-1252"/>
+<property name="file.encoding.pkg" value="sun.io"/>
+<property name="file.separator" value="\"/>
+<property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+<property name="java.class.path" value="C:\Users\giang ha\Desktop\sd project\sd trash\New folder\assign1\build\classes\java\test;C:\Users\giang ha\Desktop\sd project\sd trash\New folder\assign1\build\resources\test;C:\Users\giang ha\Desktop\sd project\sd trash\New folder\assign1\build\classes\java\main;C:\Users\giang ha\Desktop\sd project\sd trash\New folder\assign1\build\resources\main;C:\Users\giang ha\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-engine\5.0.0\811b65ec5a499732868f76c1d2a6f5786774ff82\junit-jupiter-engine-5.0.0.jar;C:\Users\giang ha\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-api\5.0.0\f7fe1b74bef74d640493781abecafba191472ad\junit-jupiter-api-5.0.0.jar;C:\Users\giang ha\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-engine\1.0.0\fdc6f63a689b894529ea5e9e218b65422748fd\junit-platform-engine-1.0.0.jar;C:\Users\giang ha\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.0.0\d2e03d9b21020746d48fe45834ff7d71fbcbd7b2\junit-platform-commons-1.0.0.jar;C:\Users\giang ha\.gradle\caches\modules-2\files-2.1\org.apiguardian\apiguardian-api\1.0.0\3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d\apiguardian-api-1.0.0.jar;C:\Users\giang ha\.gradle\caches\modules-2\files-2.1\org.opentest4j\opentest4j\1.0.0\6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4\opentest4j-1.0.0.jar;C:\Users\giang ha\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-console\1.0.0\2931079616796bc4537f7e3c236f8fdfe7e51237\junit-platform-console-1.0.0.jar;C:\Users\giang ha\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-launcher\1.0.0\5602a195a442636276efefce2a4c7b418cd67e5c\junit-platform-launcher-1.0.0.jar;build/tmp/expandedArchives/org.jacoco.agent-0.7.9.jar_91zaqszi0uk29f6pv2bx1zdcn/jacocoagent.jar"/>
+<property name="java.class.version" value="52.0"/>
+<property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+<property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+<property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+<property name="java.io.tmpdir" value="C:\Users\GIANGH~1\AppData\Local\Temp\"/>
+<property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\PuTTY\;C:\Users\giang ha\AppData\Local\Microsoft\WindowsApps;C:\Users\giang ha\AppData\Local\learn_ide\bin;C:\Users\giang ha\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="1.8.0_144-b01"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="1.8"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="http://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+<property name="java.version" value="1.8.0_144"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="1.8"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="25.144-b01"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 10"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+<property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.desktop" value="windows"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --details NONE --scan-class-path C:\Users\giang ha\Desktop\sd project\sd trash\New folder\assign1\build\classes\java\main;C:\Users\giang ha\Desktop\sd project\sd trash\New folder\assign1\build\resources\main;C:\Users\giang ha\Desktop\sd project\sd trash\New folder\assign1\build\classes\java\test;C:\Users\giang ha\Desktop\sd project\sd trash\New folder\assign1\build\resources\test -n ^.*Tests?$ --reports-dir C:\Users\giang ha\Desktop\sd project\sd trash\New folder\assign1\build\test-results\junit-platform"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="Cp1252"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="US"/>
+<property name="user.dir" value="C:\Users\giang ha\Desktop\sd project\sd trash\New folder\assign1"/>
+<property name="user.home" value="C:\Users\giang ha"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="giang ha"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="America/Chicago"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="cellOutOfColumnRange()" classname="game.MineSweeperTest" time="0.022">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:cellOutOfColumnRange()]
+display-name: cellOutOfColumnRange()
+]]></system-out>
+</testcase>
+<testcase name="checkGameStatusEnum()" classname="game.MineSweeperTest" time="0.006">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:checkGameStatusEnum()]
+display-name: checkGameStatusEnum()
+]]></system-out>
+</testcase>
+<testcase name="startGameStatus()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:startGameStatus()]
+display-name: startGameStatus()
+]]></system-out>
+</testcase>
+<testcase name="exposeBottomLeftCell()" classname="game.MineSweeperTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeBottomLeftCell()]
+display-name: exposeBottomLeftCell()
+]]></system-out>
+</testcase>
+<testcase name="exposeSealedCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeSealedCell()]
+display-name: exposeSealedCell()
+]]></system-out>
+</testcase>
+<testcase name="exposeBottomCell()" classname="game.MineSweeperTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeBottomCell()]
+display-name: exposeBottomCell()
+]]></system-out>
+</testcase>
+<testcase name="exposeNeighborCells()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeNeighborCells()]
+display-name: exposeNeighborCells()
+]]></system-out>
+</testcase>
+<testcase name="exposeTopRightCell()" classname="game.MineSweeperTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeTopRightCell()]
+display-name: exposeTopRightCell()
+]]></system-out>
+</testcase>
+<testcase name="sealingCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:sealingCell()]
+display-name: sealingCell()
+]]></system-out>
+</testcase>
+<testcase name="exposeAnExposedCell()" classname="game.MineSweeperTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeAnExposedCell()]
+display-name: exposeAnExposedCell()
+]]></system-out>
+</testcase>
+<testcase name="exposeCellTwiceCallExposeNeighborOfOnce()" classname="game.MineSweeperTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeCellTwiceCallExposeNeighborOfOnce()]
+display-name: exposeCellTwiceCallExposeNeighborOfOnce()
+]]></system-out>
+</testcase>
+<testcase name="gameInProgressWithUnexposedCells()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:gameInProgressWithUnexposedCells()]
+display-name: gameInProgressWithUnexposedCells()
+]]></system-out>
+</testcase>
+<testcase name="mineExposedGameStatus()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:mineExposedGameStatus()]
+display-name: mineExposedGameStatus()
+]]></system-out>
+</testcase>
+<testcase name="exposeUnexposedCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeUnexposedCell()]
+display-name: exposeUnexposedCell()
+]]></system-out>
+</testcase>
+<testcase name="exposedSealCellNotAffectingNeighborCells()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposedSealCellNotAffectingNeighborCells()]
+display-name: exposedSealCellNotAffectingNeighborCells()
+]]></system-out>
+</testcase>
+<testcase name="unsealingCell()" classname="game.MineSweeperTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:unsealingCell()]
+display-name: unsealingCell()
+]]></system-out>
+</testcase>
+<testcase name="exposeTopLeftCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeTopLeftCell()]
+display-name: exposeTopLeftCell()
+]]></system-out>
+</testcase>
+<testcase name="exposeAdjacentCellNotExposeNeighborCells()" classname="game.MineSweeperTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeAdjacentCellNotExposeNeighborCells()]
+display-name: exposeAdjacentCellNotExposeNeighborCells()
+]]></system-out>
+</testcase>
+<testcase name="sealExposedCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:sealExposedCell()]
+display-name: sealExposedCell()
+]]></system-out>
+</testcase>
+<testcase name="allSealedAllExposedGameStatus()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:allSealedAllExposedGameStatus()]
+display-name: allSealedAllExposedGameStatus()
+]]></system-out>
+</testcase>
+<testcase name="checkCellStateEnum()" classname="game.MineSweeperTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:checkCellStateEnum()]
+display-name: checkCellStateEnum()
+]]></system-out>
+</testcase>
+<testcase name="tenMinesPlacedWhenCreated()" classname="game.MineSweeperTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:tenMinesPlacedWhenCreated()]
+display-name: tenMinesPlacedWhenCreated()
+]]></system-out>
+</testcase>
+<testcase name="mineLocationsAreRandom()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:mineLocationsAreRandom()]
+display-name: mineLocationsAreRandom()
+]]></system-out>
+</testcase>
+<testcase name="exposeMinedCellNotExposeNeighborCells()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeMinedCellNotExposeNeighborCells()]
+display-name: exposeMinedCellNotExposeNeighborCells()
+]]></system-out>
+</testcase>
+<testcase name="adjacentCellNextToAMinedCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:adjacentCellNextToAMinedCell()]
+display-name: adjacentCellNextToAMinedCell()
+]]></system-out>
+</testcase>
+<testcase name="exposeBottomRightCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeBottomRightCell()]
+display-name: exposeBottomRightCell()
+]]></system-out>
+</testcase>
+<testcase name="exposeRightCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeRightCell()]
+display-name: exposeRightCell()
+]]></system-out>
+</testcase>
+<testcase name="mineCellAdjacentToAMineConsideredAnAdjacentCell()" classname="game.MineSweeperTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:mineCellAdjacentToAMineConsideredAnAdjacentCell()]
+display-name: mineCellAdjacentToAMineConsideredAnAdjacentCell()
+]]></system-out>
+</testcase>
+<testcase name="cellOutOfRowRange()" classname="game.MineSweeperTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:cellOutOfRowRange()]
+display-name: cellOutOfRowRange()
+]]></system-out>
+</testcase>
+<testcase name="minedCellIsConsideredAdjacentCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:minedCellIsConsideredAdjacentCell()]
+display-name: minedCellIsConsideredAdjacentCell()
+]]></system-out>
+</testcase>
+<testcase name="setMine()" classname="game.MineSweeperTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:setMine()]
+display-name: setMine()
+]]></system-out>
+</testcase>
+<testcase name="Canary()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:Canary()]
+display-name: Canary()
+]]></system-out>
+</testcase>
+<testcase name="tenCellsSealedNoWin()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:tenCellsSealedNoWin()]
+display-name: tenCellsSealedNoWin()
+]]></system-out>
+</testcase>
+<testcase name="exposeTopCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeTopCell()]
+display-name: exposeTopCell()
+]]></system-out>
+</testcase>
+<testcase name="exposeCellCallsExposeNeighborOf()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeCellCallsExposeNeighborOf()]
+display-name: exposeCellCallsExposeNeighborOf()
+]]></system-out>
+</testcase>
+<testcase name="exposeLeftCell()" classname="game.MineSweeperTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:game.MineSweeperTest]/[method:exposeLeftCell()]
+display-name: exposeLeftCell()
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
